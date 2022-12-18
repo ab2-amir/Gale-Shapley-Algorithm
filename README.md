@@ -23,7 +23,6 @@ La fonction permet de vérifier si l’étudiant du groupe 1 préfère son binô
 La fonction génère des binômes avec un arrangement stable de tel sorte qu’il n’y a pas de situation où deux binômes préfère échanger entre eux.
 Si on traduit la fonction en pseudo code :<br>
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
- <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/abdou-amir/Gale-Shapley-Algorithm/blob/main/ressources/pseudo-code.png">
+ <img alt="YOUR-ALT-TEXT" src="https://github.com/abdou-amir/Gale-Shapley-Algorithm/blob/main/ressources/pseudo-code.png">
 </picture>
