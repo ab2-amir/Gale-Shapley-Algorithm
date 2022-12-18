@@ -1,7 +1,7 @@
 # Gale-Shapley-Algorithm
 ## Introduction<br>
 Dans la vie de tous les jours, on est confronté à prendre des décisions qui se présente sous forme de pairs de groupes, l’exemple le plus connu est celui du mariage stable où on a deux groupes, un groupe d’hommes et un autre de femme et qui cherchent à former des couples. Chaque membre des deux groupes possède un classement des membres du groupe opposé ordonné selon ses préférences pour son/sa partenaire idéal. L’objectif est que tout le monde s’associe avec une personne du groupe opposé et que cet arrangement soit « stable ». C’est à dire qu’il n’y a aucune situation où deux couples préféraient échanger de partenaire entre eux.<br>
-L’algorithme de Gale-Shapley vient résoudre ce problème, et c’est ce qu’on va expliquer juste après.<br><br><br>
+L’algorithme de Gale-Shapley vient résoudre ce problème, et c’est ce qu’on va expliquer juste après.<br><br>
 ## Implémentation de l’algorithme de Gale-Shapley<br>
 On a implémenté l’algorithme en Python.<br>
 L'exemple choisie pour le déroulement de l’algorithme est le suivant :<br>
@@ -22,3 +22,8 @@ La fonction permet de vérifier si l’étudiant du groupe 1 préfère son binô
 ### La fonction stableBinome()<br>
 La fonction génère des binômes avec un arrangement stable de tel sorte qu’il n’y a pas de situation où deux binômes préfère échanger entre eux.
 Si on traduit la fonction en pseudo code :<br>
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
+ <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
