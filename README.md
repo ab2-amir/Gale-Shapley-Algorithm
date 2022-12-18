@@ -1,8 +1,8 @@
 # Gale-Shapley-Algorithm
-# Introduction<br>
+## Introduction<br>
 Dans la vie de tous les jours, on est confronté à prendre des décisions qui se présente sous forme de pairs de groupes, l’exemple le plus connu est celui du mariage stable où on a deux groupes, un groupe d’hommes et un autre de femme et qui cherchent à former des couples. Chaque membre des deux groupes possède un classement des membres du groupe opposé ordonné selon ses préférences pour son/sa partenaire idéal. L’objectif est que tout le monde s’associe avec une personne du groupe opposé et que cet arrangement soit « stable ». C’est à dire qu’il n’y a aucune situation où deux couples préféraient échanger de partenaire entre eux.<br>
 L’algorithme de Gale-Shapley vient résoudre ce problème, et c’est ce qu’on va expliquer juste après.<br><br><br>
-# Implémentation de l’algorithme de Gale-Shapley<br>
+## Implémentation de l’algorithme de Gale-Shapley<br>
 On a implémenté l’algorithme en Python.<br>
 L'exemple choisie pour le déroulement de l’algorithme est le suivant :<br>
 •	On est dans une section Master 2 IV<br>
@@ -15,3 +15,10 @@ L'exemple choisie pour le déroulement de l’algorithme est le suivant :<br>
 •	Si l'étudiant g1 a déjà un binôme, donc il va choisir entre son binôme actuel et le nouvel étudiant en se basant sur sa liste de préférence<br>
 •	Les numéros des étudiant du Groupe1 (g1_i) sont : 5, 6, 7, 8, 9<br>
 •	Les numéros des étudiant du Groupe2 (g2_i) sont : 0, 1, 2, 3, 4<br>
+
+## Explication du code<br>
+### La fonction g1PrefersCurrent_g2Overg2()<br>
+La fonction permet de vérifier si l’étudiant du groupe 1 préfère son binôme actuel au nouvel étudiant qui veut se mettre en binôme avec lui, si c’est le cas la fonction renvoie vrai si non faux <br>
+### La fonction stableBinome()<br>
+La fonction génère des binômes avec un arrangement stable de tel sorte qu’il n’y a pas de situation où deux binômes préfère échanger entre eux.
+Si on traduit la fonction en pseudo code :<br>
