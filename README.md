@@ -19,10 +19,29 @@ L'exemple choisie pour le déroulement de l’algorithme est le suivant :<br>
 ## Explication du code<br>
 ### La fonction g1PrefersCurrent_g2Overg2()<br>
 La fonction permet de vérifier si l’étudiant du groupe 1 préfère son binôme actuel au nouvel étudiant qui veut se mettre en binôme avec lui, si c’est le cas la fonction renvoie vrai si non faux <br>
+
 ### La fonction stableBinome()<br>
 La fonction génère des binômes avec un arrangement stable de tel sorte qu’il n’y a pas de situation où deux binômes préfère échanger entre eux.
 Si on traduit la fonction en pseudo code :<br>
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/abdou-amir/Gale-Shapley-Algorithm/blob/main/ressources/pseudo-code.png">
  <img alt="YOUR-ALT-TEXT" src="https://github.com/abdou-amir/Gale-Shapley-Algorithm/blob/main/ressources/pseudo-code.png">
-</picture>
+</picture><br>
+
+### Main de l’algorithme<br>
+On a créé une matrice qui contient les listes de préférence de 10 étudiants, les 5 premier étudiant sont du groupe 2 et les 5 dernier sont du groupe 1<br>
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/abdou-amir/Gale-Shapley-Algorithm/blob/main/ressources/pseudo-code.png">
+ <img alt="YOUR-ALT-TEXT" src="https://github.com/abdou-amir/Gale-Shapley-Algorithm/blob/main/ressources/pseudo-code.png">
+</picture><br>
+
+### Affichage<br>
+En résultat final de l’algorithme on a eu les binômes stables avec la préférence de chaque étudiant<br>
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/abdou-amir/Gale-Shapley-Algorithm/blob/main/ressources/pseudo-code.png">
+ <img alt="YOUR-ALT-TEXT" src="https://github.com/abdou-amir/Gale-Shapley-Algorithm/blob/main/ressources/pseudo-code.png">
+</picture><br>
+
+Cela signifie que l’étudiant g1_5 est en binôme avec l’étudiant g2_1, sachant que g2_1 est le troisième choix de g1_5 et que g1_5 est le premier choix de g2_1<br>
+De même pour le reste des binômes.<br>
+
