@@ -18,7 +18,11 @@ L'exemple choisie pour le déroulement de l’algorithme est le suivant :<br>
 
 ## Explication du code<br>
 ### La fonction g1PrefersCurrent_g2Overg2()<br>
-La fonction permet de vérifier si l’étudiant du groupe 1 préfère son binôme actuel au nouvel étudiant qui veut se mettre en binôme avec lui, si c’est le cas la fonction renvoie vrai si non faux <br>
+La fonction permet de vérifier si l’étudiant du groupe 1 préfère son binôme actuel au nouvel étudiant qui veut se mettre en binôme avec lui, si c’est le cas la fonction renvoie vrai si non faux <br><br>
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/abdou-amir/Gale-Shapley-Algorithm/blob/main/ressources/fct_prefer.png">
+ <img alt="YOUR-ALT-TEXT" src="https://github.com/abdou-amir/Gale-Shapley-Algorithm/blob/main/ressources/fct_prefer.png">
+</picture><br>
 
 ### La fonction stableBinome()<br>
 La fonction génère des binômes avec un arrangement stable de tel sorte qu’il n’y a pas de situation où deux binômes préfère échanger entre eux.
